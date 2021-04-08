@@ -22,3 +22,9 @@ let bold = "\x1B[1m";
 let reset = "\x1B[0m";
 let green = "\x1B[32m";
 let yellow = '\x1b[33m';
+
+module.exports = {
+  sleep: sleep,
+  sp: sp,
+  die: die
+}
