@@ -2,9 +2,9 @@
   "name": "consoleassister",
   "version": "0.0.4",
   "description": "For all of your console needs!",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "test": "node src/index.js"
+    "test": "node index.js"
   },
   "repository": {
     "type": "git",

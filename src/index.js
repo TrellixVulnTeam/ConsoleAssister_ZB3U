@@ -1,4 +1,4 @@
-me = require('./src/app.js')
+me = require('./app.js')
 
 module.exports = {
   me: me
