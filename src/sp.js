@@ -1,3 +1,4 @@
+l = require('./color.js')
 function sleep(milliseconds) {
   const date = Date.now();
   let currentDate = null;
@@ -5,11 +6,12 @@ function sleep(milliseconds) {
     currentDate = Date.now();
   } while (currentDate - date < milliseconds);
 };
-function sp(str){
+function sp(str, speed){
 	for(let i = 0; i < str.length; i++){
-		sleep(60);
+		sleep(speed);
   	process.stdout.write(str[i]);
 	};
+	console.log(l.reset())
 };
 
 function die(reason) {
