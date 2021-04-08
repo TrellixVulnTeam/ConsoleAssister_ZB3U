@@ -1,2 +1,2 @@
-const me = require('./index.js')
-me.sp("hello!")
+const me = require('../src/index.js')
+me.me.sp("hello!")

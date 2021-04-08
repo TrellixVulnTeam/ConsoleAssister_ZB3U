@@ -1,1 +1,1 @@
-run = "node app.js"
+run = "node test/test.js"
