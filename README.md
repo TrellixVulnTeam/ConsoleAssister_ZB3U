@@ -24,4 +24,13 @@ Then, in your **js** code, you can insert:
 const console = require('consoleassister');
 ```
 
-You can then use the module 
+You can then use the module for your own js project!
+
+# Examples
+
+Here is how you do a simple typing animation with consoleassister!
+
+``` js
+const console = require('consoleassister');
+console.sp("Hello World!")
+```
