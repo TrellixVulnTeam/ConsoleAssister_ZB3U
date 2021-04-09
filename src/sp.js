@@ -7,8 +7,19 @@ function sleep(milliseconds) {
   } while (currentDate - date < milliseconds);
 };
 function sp(str, speed){
-	for(let i = 0; i < str.length; i++){
-		sleep(speed);
+	if (speed == undefined || null) {
+		speed = 60
+	}
+	if (isNaN(speed)) {
+		throw new Error(`${speed} is not a number!`)
+	}
+	for(let i = 0; i < str.length; i++) {
+		try {
+			sleep(speed);
+		}
+		catch {
+			throw new Error(`Error when making ${speed} the speed for the typing animation!`)
+		}
   	process.stdout.write(str[i]);
 	};
 	console.log(l.reset())

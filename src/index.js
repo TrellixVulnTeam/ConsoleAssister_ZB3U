@@ -1,6 +1,7 @@
 me = require('./sp.js')
 mee = require('./color.js')
 meee = require('./math.js')
+meeee = require('./strings/list.js')
 module.exports = {
   sp: me.sp,
   red : mee.red,
@@ -12,5 +13,8 @@ module.exports = {
   add : meee.add,
   subtract : meee.subtract,
   multiply : meee.multiply,
-  divide : meee.divide
+  divide : meee.divide,
+  length : meeee.length,
+  makestring : meeee.makestring,
+  makelist : meeee.makelist
 }
