@@ -15,7 +15,7 @@ $ npm install npm@latest -g
 Once you have npm installed, you can then install ConsoleAssister! Here is how you install it:
 
 ``` bash
-$ npm install consoleassister
+$ npm install consoleassister@latest
 ```
 
 Then, in your **js** code, you can insert:
