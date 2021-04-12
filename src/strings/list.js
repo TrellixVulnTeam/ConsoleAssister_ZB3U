@@ -15,6 +15,9 @@ function makelist(stuff) {
 	if (typeof stuff == "string") {
 		return stuff.split("")
 	}
+	else {
+		throw new Error(`${stuff} is not a string!`)
+	}
 }
 module.exports = {
 	length : length,
