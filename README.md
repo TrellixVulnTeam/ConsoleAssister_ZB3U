@@ -29,33 +29,33 @@ You can then use the module for your own js project!
 
 Here is how you do a simple typing animation with consoleassister!
 
-``` nodejs
+``` js
 const test = require('consoleassister');
 test.sp("Hello World!")
 ```
 
 You can also use some colors too!
-``` nodejs
+``` js
 test.sp(test.red() + "This text will be red!")
 ```
 
 Also, when they typing animation ends, it resets the color, try it out!
 
-``` nodejs
+``` js
 test.sp(test.red() + "This will be red")
 test.sp("This will be normal!")
 ```
 
 You can also find the length of a string in a simplified way! Here's how you do it:
 
-``` nodejs
+``` js
 mystring = "Hello!"
 console.log(test.length(mystring))
 ```
 
 It returns the value of 6 because there are 6 characters in the string! You can do this for lists too!
 
-``` nodejs
+``` js
 mylist = ['H', 'i', '!']
 console.log(test.length(mylist))
 ```
