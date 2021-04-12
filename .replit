@@ -1,1 +1,2 @@
-run = "node test/test.js"
+language = "nodejs"
+run = "npx npm run test"

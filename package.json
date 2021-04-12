@@ -14,5 +14,8 @@
     "consoleassister"
   ],
   "author": "darkdarcool30",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "npm": "^7.9.0"
+  }
 }
