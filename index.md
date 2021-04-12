@@ -1,37 +1,64 @@
-## Welcome to GitHub Pages
+# ConsoleAssister
 
-You can use the [editor on GitHub](https://github.com/darkdarcool/ConsoleAssister/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+ConsoleAssister is a nodejs version of the [consolehelp](https://github.com/darkdarcool/consolehelp)! This is meant for the console, but can be used for websites too!(coming soon!)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Requisites
 
-### Markdown
+To install this, please use **`npm`**! If you don't have npm, please install it! Here is how you get it!
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+**`NOTE:`** You have to have [nodejs](https://nodejs.org) installed on your system to use npm.
+``` bash
+$ npm install npm@latest -g
+```
+## Installation 
+Once you have npm installed, you can then install ConsoleAssister! Here is how you install it:
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+``` bash
+$ npm install consoleassister@latest
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Then, in your **nodejs** code, you can insert:
 
-### Jekyll Themes
+``` nodejs
+const test = require('consoleassister');
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/darkdarcool/ConsoleAssister/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+You can then use the module for your own js project!
 
-### Support or Contact
+# Examples
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Here is how you do a simple typing animation with consoleassister!
+
+``` js
+const test = require('consoleassister');
+test.sp("Hello World!")
+```
+
+You can also use some colors too!
+``` js
+test.sp(test.red() + "This text will be red!")
+```
+
+Also, when they typing animation ends, it resets the color, try it out!
+
+``` js
+test.sp(test.red() + "This will be red")
+test.sp("This will be normal!")
+```
+
+You can also find the length of a string in a simplified way! Here's how you do it:
+
+``` js
+mystring = "Hello!"
+console.log(test.length(mystring))
+```
+
+It returns the value of 6 because there are 6 characters in the string! You can do this for lists too!
+
+``` js
+mylist = ['H', 'i', '!']
+console.log(test.length(mylist))
+```
+
+It returns 3, because there are 3 elements in the list!
+
