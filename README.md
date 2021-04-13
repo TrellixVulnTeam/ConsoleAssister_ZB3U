@@ -1,4 +1,4 @@
-[![DeepScan grade](https://deepscan.io/api/teams/13676/projects/16680/branches/362732/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=13676&pid=16680&bid=362732)
+[![DeepScan grade](https://deepscan.io/api/teams/13676/projects/16680/branches/362732/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=13676&pid=16680&bid=362732) [![Node.js CI](https://github.com/darkdarcool/ConsoleAssister/actions/workflows/node.js.yml/badge.svg)](https://github.com/darkdarcool/ConsoleAssister/actions/workflows/node.js.yml)
 
 # ConsoleAssister
 
