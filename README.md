@@ -1,3 +1,5 @@
+[![DeepScan grade](https://deepscan.io/api/teams/13676/projects/16680/branches/362732/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=13676&pid=16680&bid=362732)
+
 # ConsoleAssister
 
 ConsoleAssister is a nodejs version of the [consolehelp](https://github.com/darkdarcool/consolehelp)! This is meant for the console, but can be used for websites too!(coming soon!)
