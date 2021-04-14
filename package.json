@@ -1,6 +1,6 @@
 {
   "name": "consoleassister",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "For all of your console needs!",
   "main": "index.js",
   "scripts": {
