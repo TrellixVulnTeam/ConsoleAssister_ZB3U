@@ -2,7 +2,7 @@ me = require('./sp.js')
 mee = require('./color.js')
 meee = require('./math.js')
 meeee = require('./strings/list.js')
-game = require('./game/readline.js')
+game = require('./strings/readline.js')
 module.exports = {
   sp: me.sp,
   red : mee.red,
