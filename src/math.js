@@ -1,3 +1,4 @@
+const color = require('./color.js')
 function add(num1, num2) {
 	if (isNaN(num1)) {
 		throw new Error(`${num1} is not a number!`)
@@ -6,7 +7,7 @@ function add(num1, num2) {
 		throw new Error(`${num2} is not a number!`)
 	}
 	var value = num1 + num2
-	return value
+	return color.reset() + value
 }
 function subtract(num1, num2) {
 	if (isNaN(num1)) {
@@ -16,7 +17,7 @@ function subtract(num1, num2) {
 		throw new Error(`${num2} is not a number!`)
 	}
 	var value = num1 - num2
-	return value
+	return color.reset() + value
 }
 function multiply(num1, num2) {
 	if (isNaN(num1)) {
@@ -26,7 +27,7 @@ function multiply(num1, num2) {
 		throw new Error(`${num2} is not a number!`)
 	}
 	var value = num1 * num2
-	return value
+	return color.reset() + value
 }
 function divide(num1, num2) {
 	if (isNaN(num1)) {
@@ -36,7 +37,7 @@ function divide(num1, num2) {
 		throw new Error(`${num2} is not a number!`)
 	}
 	var value = num1 / num2
-	return value
+	return color.reset() + value
 }
 module.exports = {
 	add : add,
