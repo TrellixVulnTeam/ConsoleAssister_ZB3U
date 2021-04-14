@@ -1,3 +1,3 @@
 const test = require('../src/index.js');
-mylist = ['H', 'i', '!']
-console.log(test.length(mylist))
+let name = test.readline("Hello! What is your name? ")
+console.log(name)
