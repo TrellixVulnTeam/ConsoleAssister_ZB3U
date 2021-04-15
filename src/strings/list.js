@@ -19,8 +19,12 @@ function makelist(stuff) {
 		throw new Error(`${stuff} is not a string!`)
 	}
 }
+const jsonparse = (stuff) => {
+	mystuff = JSON.parse(stuff);
+}
 module.exports = {
 	length : length,
 	makestring : makestring,
-	makelist : makelist
+	makelist : makelist,
+	jsonparse : jsonparse
 }

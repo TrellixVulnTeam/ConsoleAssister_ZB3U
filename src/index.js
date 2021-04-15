@@ -17,6 +17,7 @@ module.exports = {
   divide : meee.divide,
   length : meeee.length,
   makestring : meeee.makestring,
+	jsonparse : meeee.jsonparse,
   makelist : meeee.makelist,
 	readline : game.readline
 }
